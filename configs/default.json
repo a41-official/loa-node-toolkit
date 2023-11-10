@@ -1,42 +1,196 @@
 {
-  "title": "DEFAULT CONFIG",
+  "title": "A41 GOV Bot",
   "enabled": true,
   "networks": [
     {
-      "name": "regen",
-      "chain_id": "regen-1",
-      "rpc": "http://127.0.0.1:26657",
-      "coingecko_id": "regen",
-      "denom": "uregen",
+      "name": "cosmoshub",
+      "chain_id": "cosmoshub-4",
+      "rpc": "http://211.219.19.76:26657",
+      "coingecko_id": "cosmos",
+      "denom": "uatom",
       "gas_prices": "0.025",
       "gas_auto": true,
-      "granter": "regen1...",
-      "valoper": "regenvaloper1...",
-      "restake": 0.5
+      "granter": "cosmos1v78emy9d2xe3tj974l7tmn2whca2nh9zy2y6sk",
+      "valoper": "cosmosvaloper1v78emy9d2xe3tj974l7tmn2whca2nh9zp7s0u9",
+      "restake": 0
+    },
+    {
+      "name": "juno",
+      "chain_id": "juno-1",
+      "rpc": "http://211.219.19.73:26657",
+      "coingecko_id": "juno-network",
+      "denom": "ujuno",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "juno19cdcyqej774srr90qdyxggdf3hcqzq9mfwknsp",
+      "valoper": "junovaloper19cdcyqej774srr90qdyxggdf3hcqzq9mknqutc",
+      "restake": 0
+    },
+    {
+      "name": "stargaze",
+      "chain_id": "stargaze-1",
+      "rpc": "http://211.219.19.72:26657",
+      "coingecko_id": "stargaze",
+      "denom": "ustars",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "stars1p3ga5uyzl9hum0j5qv0f5vysyevvwc8rdcr54g",
+      "valoper": "starsvaloper1p3ga5uyzl9hum0j5qv0f5vysyevvwc8rxxhqws",
+      "restake": 0
+    },
+    {
+      "name": "medibloc",
+      "chain_id": "panacea-3",
+      "rpc": "http://211.219.19.73:26757",
+      "coingecko_id": "medibloc",
+      "denom": "umed",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "panacea1peaw8ez02szsqhc3pf2xsfdfnqd6t2mh3h4u0t",
+      "valoper": "panaceavaloper1peaw8ez02szsqhc3pf2xsfdfnqd6t2mhk44un4",
+      "restake": 0
+    },
+    {
+      "name": "osmosis",
+      "chain_id": "osmosis-1",
+      "rpc": "http://211.219.19.74:26657",
+      "coingecko_id": "osmosis",
+      "denom": "uosmo",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "osmo18m4wkxw865cmxu7wv43pk9wgssw022kj732ee9",
+      "valoper": "osmovaloper18m4wkxw865cmxu7wv43pk9wgssw022kjyxz6wz",
+      "restake": 0
+    },    
+    {
+      "name": "stride",
+      "chain_id": "stride-1",
+      "rpc": "https://stride-rpc.polkachu.com/",
+      "coingecko_id": "stride",
+      "denom": "ustrd",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "stride10m7wk6jk2k90s0k8k0v6lmcrn0xaveu92w6dwk",
+      "valoper": "stridevaloper10m7wk6jk2k90s0k8k0v6lmcrn0xaveu9fm73zn",
+      "restake": 0
+    },    
+    {
+      "name": "archway",
+      "chain_id": "archway-1",
+      "rpc": "https://rpc.mainnet.archway.io",
+      "coingecko_id": "archway",
+      "denom": "aarch",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "archway10m7wk6jk2k90s0k8k0v6lmcrn0xaveu9uwx4sd",
+      "valoper": "archwayvaloper10m7wk6jk2k90s0k8k0v6lmcrn0xaveu9u20hay",
+      "restake": 0
+    },
+    {
+      "name": "kyve",
+      "chain_id": "kyve-1",
+      "rpc": "https://rpc-eu-1.kyve.network",
+      "coingecko_id": "kyve",
+      "denom": "ukyve",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "kyve1aqum9jkv9yptslm4czvjpzyt29kj6w4fjh8km5",
+      "valoper": "kyvevaloper1aqum9jkv9yptslm4czvjpzyt29kj6w4fq88k4k",
+      "restake": 0
+    },
+    {
+      "name": "tenet",
+      "chain_id": "tenet_1559-1",
+      "rpc": "https://tendermint-1.rpc.tenet.org",
+      "coingecko_id": "tenet",
+      "denom": "atenet",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "tenet1cu2zc2vdlk5hyyglgej6rqn6cc6pn4y53ur6m2",
+      "valoper": "tenetvaloper1cu2zc2vdlk5hyyglgej6rqn6cc6pn4y5mlem0y",
+      "restake": 0
+    },
+    {
+      "name": "evmos",
+      "chain_id": "evmos_9001-2",
+      "rpc": "https://evmos.kingnodes.com",
+      "coingecko_id": "evmos",
+      "denom": "aevmos",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "evmos1k96y0w5wf089nuvvym3s324c8umd3vvmc2cyl6",
+      "valoper": "evmosvaloper1k96y0w5wf089nuvvym3s324c8umd3vvm4yh578",
+      "restake": 0
+    },
+    {
+      "name": "sei",
+      "chain_id": "pacific-1",
+      "rpc": "https://sei-rpc.polkachu.com/",
+      "coingecko_id": "sei",
+      "denom": "usei",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "sei18tpdet22kpvswxayekwn55ry0r5acx4krjdjqx",
+      "valoper": "seivaloper18tpdet22kpvswxayekwn55ry0r5acx4kaauupk",
+      "restake": 0
+    },
+    {
+      "name": "neutron",
+      "chain_id": "neutron-1",
+      "rpc": "https://rpc-kralum.neutron-1.neutron.org",
+      "coingecko_id": "neutron",
+      "denom": "untrn",
+      "gas_prices": "0.025",
+      "gas_auto": true,
+      "granter": "neutron1v78emy9d2xe3tj974l7tmn2whca2nh9zq4dc23",
+      "valoper": "neutronvaloper1v78emy9d2xe3tj974l7tmn2whca2nh9z6g5pv4",
+      "restake": 0
+    },
+    {
+      "name": "haqq",
+      "chain_id": "haqq_11235-1",
+      "rpc": "https://rpc.tm.haqq.network",
+      "coingecko_id": "haqq",
+      "denom": "aISLM",
+      "gas_prices": "25000000000",
+      "gas_auto": true,
+      "granter": "haqq1tdzdn4zdnntdjkxtx8lrp9m8rpdu9yz3cc7fe4",
+      "valoper": "haqqvaloper1tdzdn4zdnntdjkxtx8lrp9m8rpdu9yz356j8a5",
+      "restake": 0
+    },
+    {
+      "name": "dydx",
+      "chain_id": "dydx-mainnet-1",
+      "rpc": "https://rpc-dydx.ecostake.com:443",
+      "coingecko_id": "dydx-ethdydx",
+      "denom": "adydx",
+      "gas_prices": "25000000000",
+      "gas_auto": true,
+      "granter": "dydx1et3h08wt6y9h0zjkp6jxpr42hm58avcd9mcppt",
+      "valoper": "dydxvaloper1et3h08wt6y9h0zjkp6jxpr42hm58avcdq9wh26",
+      "restake": 0
     }
   ],
   "services": {
     "status": {
-      "enabled": true,
-      "run_on_start": true,
+      "enabled": false,
+      "run_on_start": false,
       "title": "Status Service",
-      "cron": "*/5 * * * *",
-      "force_notify_count": 72,
+      "cron": "*/5 * * * *", 
+      "force_notify_count": 144, 
       "notify": {
-        "discord": "#node-monitor",
         "slack": "#node-monitor"
       }
     },
     "proposals": {
-      "enabled": false,
-      "run_on_start": false,
+      "enabled": true,
+      "run_on_start": true,
       "title": "Proposal Check",
-      "cron": "*/15 * * * *",
-      "force_notify_count": 12,
-      "active_notify_count": 6,
+      "cron": "1 10 * * *",
+      "force_notify_count": 1,
+      "active_notify_count": 1,
       "notify": {
-        "slack": "#gov-monitor",
-        "discord": "#gov-monitor"
+        "slack": "#gov-monitor"
       }
     },
     "rewards": {
@@ -54,14 +208,18 @@
   "notifications": {
     "discord": {
       "#node-monitor": {
-        "enabled": true,
+        "enabled": false,
         "endpoint": "https://discord.com/api/webhooks/<12345678>/<12345678>"
       }
     },
     "slack": {
       "#node-monitor": {
+        "enabled": false,
+        "endpoint": "https://hooks.slack.com/services/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"
+      },
+      "#gov-monitor": {
         "enabled": true,
-        "endpoint": "https://hooks.slack.com/services/<12345678>/<12345678>/<12345678>"
+        "endpoint": "https://hooks.slack.com/services/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"
       }
     }
   },
