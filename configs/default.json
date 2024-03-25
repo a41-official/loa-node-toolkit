@@ -169,6 +169,18 @@
       "granter": "dydx1et3h08wt6y9h0zjkp6jxpr42hm58avcd9mcppt",
       "valoper": "dydxvaloper1et3h08wt6y9h0zjkp6jxpr42hm58avcdq9wh26",
       "restake": 0
+    },
+    {
+      "name": "injective",
+      "chain_id": "injective-1",
+      "rpc": "https://injective-rpc.polkachu.com/",
+      "coingecko_id": "injective",
+      "denom": "inj",
+      "gas_prices": "1000000000",
+      "gas_auto": true,
+      "granter": "inj145cktyaw3ec7nwt3nyawvx5yy9l58ppyj0z62z",
+      "valoper": "injvaloper145cktyaw3ec7nwt3nyawvx5yy9l58ppy9fhltx",
+      "restake": 0
     }
   ],
   "services": {
